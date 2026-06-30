@@ -15,67 +15,62 @@ The platform helps students build real-world experience, discover relevant job o
 https://career-launch-pad.vercel.app/
 
 ---
+📌 Features
 
-## 📌 Features
+👨‍🎓 Student Module
+• Create professional profiles
+• Add skills and portfolio projects
+• Apply for freelance projects
+• Access interview experiences
+• Get AI-curated job recommendations
 
-### 👨‍🎓 Student Module
-- Create professional profiles
-- Add skills and portfolio projects
-- Apply for freelance projects
-- Access interview experiences
-- Get AI-curated job recommendations
+🧑‍💼 Client Module
+• Post freelance projects
+• Review student proposals
+• Hire students based on skills and ratings
+• Track project progress
 
-### 🧑‍💼 Client Module
-- Post freelance projects
-- Review student proposals
-- Hire students based on skills and ratings
-- Track project progress
+🤖 AI Job Aggregator
+• Filters jobs based on student skills
+• Provides personalized recommendations
+• Reduces irrelevant job listings
+• Uses intelligent matching techniques
 
-### 🤖 AI Job Aggregator
-- Filters jobs based on student skills
-- Provides personalized recommendations
-- Reduces irrelevant job listings
-- Uses intelligent matching techniques
+📚 Interview Vault
+• Peer-shared interview experiences
+• Company-specific interview questions
+• HR and technical round insights
+• Searchable knowledge base
 
-### 📚 Interview Vault
-- Peer-shared interview experiences
-- Company-specific interview questions
-- HR and technical round insights
-- Searchable knowledge base
+🔐 Authentication & Security
+• JWT-based authentication
+• Protected routes
+• Secure backend APIs
 
-### 🔐 Authentication & Security
-- JWT-based authentication
-- Protected routes
-- Secure backend APIs
+🛠️ Tech Stack
 
----
+Frontend
+• React.js
+• Tailwind CSS
 
-## 🛠️ Tech Stack
+Backend
+• Java
+• Spring Boot
+• Spring Security
 
-### Frontend
-- React.js
-- Tailwind CSS
+Database
+• PostgreSQL
 
-### Backend
-- Node.js
-- Express.js
+APIs & Tools
+• Gemini API
+• JWT Authentication
+• pgAdmin
 
-### Database
-- MongoDB
-
-### APIs & Tools
-- Gemini API
-- JWT Authentication
-
----
-
-## 🏗️ System Architecture
+🏗️ System Architecture
 
 The platform follows a multi-layered architecture:
 
-1. Frontend handles UI interactions
-2. Backend manages APIs and business logic
-3. MongoDB stores user and project data
-4. AI module processes skill-based recommendations
-
----
+• Frontend (React.js + Tailwind CSS) handles user interface and client-side interactions.
+• Backend (Java Spring Boot) manages REST APIs, business logic, authentication, and data processing.
+• PostgreSQL stores user profiles, freelance projects, interview experiences, applications, and project data.
+• The AI Recommendation Module uses the Gemini API to generate personalized job recommendations based on student skills and intelligent matching techniques.
